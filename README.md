@@ -25,13 +25,14 @@ var animationSpringModule = require("nativescript-animation-spring");
 
 ### View.animate Method
 
-Use the `View.animate()` method as you normally would just as described in the NativeScript Docs in the [`Amination Section`](https://docs.nativescript.org/animation.html). In order to get the Spring effect, there are several options that need to be specified besides the standard ones like transform and scale:
+Use the `View.animate()` method as you normally would just as described in the NativeScript Docs in the [`Animation Section`](https://docs.nativescript.org/animation.html). In order to get the Spring effect, there are several options that need to be specified besides the standard ones like transform and scale:
 
+- duration: decimal (in ms)
 - delay: decimal (in ms)
 - dampingRatio: float
 - velocity: float
 - options: object (UIViewAnimationOptions)
-- curve: string
+- curve: string (*to use the spring animation, curve must be set to "spring"*)
 
 The full set of options is documented on the [Apple developer site](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIView_Class/#//apple_ref/occ/clm/UIView/animateWithDuration:delay:usingSpringWithDamping:initialSpringVelocity:options:animations:completion:). Modifying these options gives a different spring-like effect. Here is an example function call for the screenshot above (although it looks much smoother on the emulator or the actual device since the GIF is not 60 frames per second).
 
@@ -50,7 +51,7 @@ myView.animate({
             dampingRatio: 0.3,
             velocity: 2.0,
             options: null,
-            curve: "spring"
+            curve: "spring" //<---set this to "spring" to use the spring animation
         })
 ```
 
