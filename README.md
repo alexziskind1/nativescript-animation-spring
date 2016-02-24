@@ -1,3 +1,5 @@
+*NOTE: You can use this animation effect by itself, or you can get the nativescript-effects plugin, which not only has this effect built in, but has a bunch of other convenient effects* 
+
 # NativeScript Spring Animation
 
 A NativeScript plugin that adds the Spring effect to animations. The iOS curves that are supported include Linear, EaseIn, EaseOut and EaseInOut, but no Spring. Currently this module supports only iOS, but since Android animation curves include a 'spring-type' of animation, a similar effect already exists.

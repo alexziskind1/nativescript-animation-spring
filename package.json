@@ -1,14 +1,14 @@
 {
   "name": "nativescript-animation-spring",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A NativeScript module to enhance animations to include the Spring type of animation curve",
   "main": "animation-spring.js",
   "nativescript": {
     "platforms": {
-      "ios": "0.0.1"
+      "ios": "0.0.2"
     },
     "tns-ios": {
-      "version": "0.0.1"
+      "version": "0.0.2"
     }
   },
   "repository": {
@@ -18,24 +18,15 @@
   "keywords": [
     "NativeScript"
   ],
-  "author": {
-    "name": "Alexander Ziskind",
-    "email": "alex@nuvious.com",
-    "url": "http://www.nuvious.com"
-  },
+  "author": "Alexander Ziskind <alex@nuvious.com> (http://www.nuvious.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/alexziskind1/nativescript-animation-spring/issues"
   },
   "homepage": "https://github.com/alexziskind1/nativescript-animation-spring",
-
   "scripts": {},
-
   "maintainers": [
-    {
-      "name": "alexziskind1",
-      "email": "alex@nuvious.com"
-    }
+    "alexziskind1 <alex@nuvious.com>"
   ],
   "directories": {}
 }
